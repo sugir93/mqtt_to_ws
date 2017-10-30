@@ -1,0 +1,29 @@
+{
+  "name": "mqtt_to_websocket",
+  "version": "0.0.1",
+  "description": "this application is to get the message from the mqtt client and send those messages to websocket server/client",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugir93/mqtt_to_ws.git"
+  },
+  "keywords": [
+    "mqtt",
+    "websocket",
+    "mqtt to websocket"
+  ],
+  "author": "reachsugir@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sugir93/mqtt_to_ws/issues"
+  },
+  "homepage": "https://github.com/sugir93/mqtt_to_ws#readme",
+  "dependencies": {
+    "mqtt": "^2.13.1",
+    "ws": "^3.2.0"
+  }
+}
